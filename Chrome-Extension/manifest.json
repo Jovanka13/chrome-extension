@@ -1,0 +1,19 @@
+{
+    "name": "Custom Dashboard",
+    "description": "Chrome extension that greets the user each time when they open a new tab",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "incognito": "split",
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "permissions": [
+      "activeTab"
+   ],
+   "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
